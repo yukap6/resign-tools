@@ -1,0 +1,11 @@
+{
+  "name": "resign-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yukap6/resign-tools.git",
+  "author": "yukap <jingweirong@mistong.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

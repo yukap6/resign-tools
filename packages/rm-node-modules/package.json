@@ -1,0 +1,24 @@
+{
+  "name": "@yukap/rm-node-modules",
+  "version": "1.0.1",
+  "license": "MIT",
+  "bin": {
+    "rm-node-modules-cli": "index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "nodemon ./src/index.ts",
+    "prepublishOnly": "yarn run build",
+    "test": "ts-node ./test_folder/index.ts"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/shelljs": "^0.8.11",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
